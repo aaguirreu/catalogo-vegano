@@ -1,7 +1,9 @@
+import { config } from 'dotenv';
+config({ path: '../.env' });
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import { MongoClient, ObjectId } from 'mongodb';
 
-const uri = process.env.MONGODB_URI || "";
+const uri = process.env['MONGODB_URI'] || "";
 const client = new MongoClient(uri);
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -14,11 +16,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       if (!producto) {
         return res.status(404).json({ error: "Producto no encontrado" });
       }
-      res.status(200).json(producto);
+      return res.status(200).json(producto);
     } else {
-      res.status(405).json({ error: "Método no permitido" });
+      return res.status(405).json({ error: "Método no permitido" });
     }
   } catch (error) {
-    res.status(500).json({ error: "Error obteniendo producto" });
+    return res.status(500).json({ error: "Error obteniendo producto" });
   }
 }
