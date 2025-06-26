@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ProductosService, Producto } from './productos.service';
@@ -27,9 +27,9 @@ export class CatalogoComponent implements OnInit {
   constructor(private productosService: ProductosService) {}
 
   ngOnInit() {
-    this.cargarProductos();
+    this.cargarProductos(); // tu lógica de inicio aquí
   }
-
+  
   cargarProductos() {
     this.loading = true;
     this.productosService.getProductos(this.offset, this.limit).subscribe({
@@ -51,13 +51,32 @@ export class CatalogoComponent implements OnInit {
     });
   }
 
+  noHayMas = false;
+
   cargarMas() {
+    if (this.noHayMas || this.loading) return;
+
     this.offset += this.limit;
     this.loading = true;
-    this.productosService.getProductos(this.offset, this.limit).subscribe({
+
+    const observable = this.categoriaSeleccionada
+      ? this.productosService.getProductosPorCategoria(this.categoriaSeleccionada, this.offset, this.limit)
+      : this.productosService.getProductos(this.offset, this.limit);
+
+    observable.subscribe({
       next: (data) => {
-        const nuevos = data.filter(nuevo => !this.productos.some(p => p._id === nuevo._id));
-        this.productos = [...this.productos, ...nuevos];
+        if (data.length < this.limit) this.noHayMas = true;
+
+        const nuevos = data.filter(nuevo =>
+          !(this.productosBusqueda ?? this.productos).some(p => p._id === nuevo._id)
+        );
+
+        if (this.categoriaSeleccionada) {
+          this.productosBusqueda = [...(this.productosBusqueda ?? []), ...nuevos];
+        } else {
+          this.productos = [...this.productos, ...nuevos];
+        }
+
         this.loading = false;
       },
       error: (err) => {
@@ -69,18 +88,42 @@ export class CatalogoComponent implements OnInit {
 
   seleccionarCategoria(cat: string) {
     this.categoriaSeleccionada = cat;
+    this.busqueda = '';
+    this.loading = true;
+    this.offset = 0;
+
+    this.productosService.getProductosPorCategoria(cat, this.offset, this.limit).subscribe({
+      next: (data) => {
+        this.productosBusqueda = data;
+        this.loading = false;
+        this.noHayMas = data.length < this.limit;
+      },
+      error: () => {
+        this.error = 'Error al cargar productos por categoría';
+        this.loading = false;
+      }
+    });
   }
 
   buscarProductos() {
-    const texto = this.busqueda.trim().toLowerCase();
+    const texto = this.busqueda.trim();
     if (!texto) {
       this.productosBusqueda = null;
       return;
     }
-    this.productosBusqueda = this.productos.filter(p =>
-      p.nombre.toLowerCase().includes(texto) ||
-      (p.descripcion && p.descripcion.toLowerCase().includes(texto))
-    );
+
+    this.categoriaSeleccionada = '';
+    this.loading = true;
+    this.productosService.searchProductos(texto).subscribe({
+      next: (data) => {
+        this.productosBusqueda = data;
+        this.loading = false;
+      },
+      error: () => {
+        this.error = 'Error al buscar productos';
+        this.loading = false;
+      }
+    });
   }
 
   getFilas(): Producto[][] {
@@ -105,6 +148,17 @@ export class CatalogoComponent implements OnInit {
       if (Array.isArray(p.categorias)) return p.categorias.includes(this.categoriaSeleccionada);
       return p.categoria === this.categoriaSeleccionada;
     });
+  }
+
+  @ViewChild('scrollable') scrollable!: ElementRef<HTMLDivElement>;
+
+  onScrollProductos() {
+    const div = this.scrollable.nativeElement;
+    if (div.scrollTop + div.clientHeight >= div.scrollHeight) {
+      if (!this.loading && !this.noHayMas) {
+        this.cargarMas();
+      }
+    }
   }
 
   toggleCategorias() {

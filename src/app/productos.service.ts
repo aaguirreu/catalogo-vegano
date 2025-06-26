@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Observable, from, of } from 'rxjs';
 import { switchMap, shareReplay } from 'rxjs/operators';
 
@@ -19,10 +19,10 @@ export interface Producto {
 
 @Injectable({ providedIn: 'root' })
 export class ProductosService {
-  private apiUrl = 'https://catalogo-vegano.onrender.com/api/productos';
-  // private apiUrl = 'http://localhost:3001/api/productos';
-  private publicKeyUrl = 'https://catalogo-vegano.onrender.com/api/public-key';
-  // private publicKeyUrl = 'http://localhost:3001/api/public-key';
+  // private apiUrl = 'https://catalogo-vegano.onrender.com/api/productos';
+  private apiUrl = 'http://localhost:3001/api/productos';
+  // private publicKeyUrl = 'https://catalogo-vegano.onrender.com/api/public-key';
+  private publicKeyUrl = 'http://localhost:3001/api/public-key';
   private publicKey$: Observable<string>;
 
   constructor(private http: HttpClient) {
@@ -43,6 +43,20 @@ export class ProductosService {
     );
   }
 
+  getProductosPorCategoria(categoria: string, offset = 0, limit = 20): Observable<Producto[]> {
+    return this.publicKey$.pipe(
+      switchMap(key => {
+        const headers = new HttpHeaders({ 'x-api-key': key });
+        const params = new HttpParams()
+          .set('categoria', categoria)
+          .set('offset', offset.toString())
+          .set('limit', limit.toString());
+
+        return this.http.get<Producto[]>(this.apiUrl, { headers, params });
+      })
+    );
+  }
+
   searchProductos(query: string): Observable<Producto[]> {
     return this.publicKey$.pipe(
       switchMap(key => {
@@ -58,4 +72,5 @@ export class ProductosService {
       switchMap((productos) => of(productos.find((p) => p.slug === slug)))
     );
   }
+  
 }
