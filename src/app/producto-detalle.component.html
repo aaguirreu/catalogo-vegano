@@ -1,0 +1,36 @@
+<div class="producto-detalle" *ngIf="producto">
+  <h2>{{ producto.nombre }}</h2>
+  <img [src]="producto.imagen" [alt]="producto.nombre" />
+  <p><strong>Marca:</strong> {{ producto.marca }}</p>
+  <p><strong>Precio:</strong> ${{ producto.precio }}</p>
+  <p><strong>Stock:</strong> <span [ngClass]="{ 'en-stock': producto.stock, 'sin-stock': !producto.stock }">{{ producto.stock ? 'Disponible' : 'Sin stock' }}</span></p>
+  <div *ngIf="producto.detalle">
+    <p><strong>Descripción:</strong> {{ producto.detalle.descripcion }}</p>
+    <div *ngIf="producto.detalle.ingredientes">
+      <strong>Ingredientes:</strong>
+      <ul>
+        <li *ngFor="let ing of producto.detalle.ingredientes">{{ ing }}</li>
+      </ul>
+    </div>
+    <div *ngIf="producto.detalle.tablaNutricional">
+      <strong>Tabla Nutricional:</strong>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Por 100g</th>
+            <th>Por Porción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of producto.detalle.tablaNutricional">
+            <td>{{ item.nombre }}</td>
+            <td>{{ item.por100g }}</td>
+            <td>{{ item.porPorcion }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <button (click)="volver()">Volver</button>
+</div>
