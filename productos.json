@@ -1,453 +1,2407 @@
 [
   {
-    "id": "134678",
-    "nombre": "Galletas Selz Cracker 270 g",
-    "marca": "Selz",
-    "precio": 1290,
-    "precioOriginal": 1550,
+    "id": "498",
+    "nombre": "Bebida Coca-Cola Zero 1.5 L",
+    "marca": "Coca-Cola",
+    "precio": 2090,
+    "precioOriginal": 2090,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/322883-250-250/Galletas-Cracker-Tradicional-3-Pack-270-g.jpg?v=638776426479830000",
-    "categoria": "Galletas Saladas",
-    "slug": "cracker-tradicional-3pack-270g-1989470"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/297983-250-250/713789-01_485.jpg?v=638775745974370000",
+    "categorias": [
+      "Bebidas, Aguas y Jugos",
+      "Bebidas Gaseosas",
+      "Bebidas Light o Zero Azúcar"
+    ],
+    "slug": "bebida-cocacola-zero-15-l-botella-desechable",
+    "detalle": {
+      "descripcion": "Disfruta de tu Coca-Cola en todo momento. Refrescante y delicioso sabor. Ideal para compartirla en familia. Pruébala en todas sus variedades.",
+      "ingredientes": [
+        "Agua carbonatada",
+        "Color caramelo",
+        "ácido fosfórico",
+        "Aspartamo",
+        "Saborizantes naturales",
+        "Benzoato de sodio",
+        "Acesulfamo de potasio",
+        "Citrato de sodio",
+        "Cafeína",
+        "Glicosidos de esteviol",
+        "Fenilalanina"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "0.2",
+          "porPorcion": "0.4"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
   },
   {
-    "id": "4062",
-    "nombre": "Galleta Triton Vainilla 126 g",
-    "marca": "Mckay",
-    "precio": 839,
-    "precioOriginal": 839,
+    "id": "13833",
+    "nombre": "Aceite de Maravilla Chef 1 L",
+    "marca": "Chef",
+    "precio": 2750,
+    "precioOriginal": 3710,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/300077-250-250/Galleta-Triton-Vainilla-126-g.jpg?v=638776371724300000",
-    "categoria": "Galletas Dulces",
-    "slug": "galletas-mckay-126-g-triton-sabor-chocolate-con-relleno-vainilla"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/452172-250-250/Aceite-de-Maravilla-Chef-1-L.jpg?v=638852054257800000",
+    "categorias": [
+      "Despensa",
+      "Aceites, Sal y Condimentos",
+      "Aceite"
+    ],
+    "slug": "aceite-maravilla-chef-1-l",
+    "detalle": {
+      "descripcion": "Aceite 100% de maravilla para todo tipo de preparaciones. El aceite de chef es infaltable en la cocina chilena.",
+      "ingredientes": [
+        "Aceite 100% de maravilla",
+        "ácido cítrico"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "828",
+          "porPorcion": "41.4"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "92",
+          "porPorcion": "4.6"
+        },
+        {
+          "nombre": "Grasas Saturadas (g)",
+          "por100g": "10",
+          "porPorcion": "0.5"
+        },
+        {
+          "nombre": "Grasas Monoinsaturadas (g)",
+          "por100g": "28",
+          "porPorcion": "1.4"
+        },
+        {
+          "nombre": "Grasas Poliinsaturadas (g)",
+          "por100g": "54",
+          "porPorcion": "2.7"
+        },
+        {
+          "nombre": "Grasas trans (g)",
+          "por100g": "0.5",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Colesterol (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
   },
   {
-    "id": "4073",
-    "nombre": "Galleta Triton Mini Vainilla 40 g",
-    "marca": "Mckay",
-    "precio": 490,
-    "precioOriginal": 490,
+    "id": "5804",
+    "nombre": "Papa Malla 2 kg",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 1890,
+    "precioOriginal": 2390,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/300221-250-250/Galleta-Triton-Mini-Vainilla-40-g.jpg?v=638776372046970000",
-    "categoria": "Galletas Dulces",
-    "slug": "galletas-triton-mckay-bolsa-40-g-minis-vainilla"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/348025-250-250/Papa-malla-2-kg.jpg?v=638776479317000000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "papas-jumbo-malla-2-kg",
+    "detalle": {
+      "descripcion": "La papa es una gran fuente de energía con alto nivel de antioxidantes, además es muy versátil en la cocina.",
+      "ingredientes": [
+        "Papas"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "86.4",
+          "porPorcion": "129.6"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "2.46",
+          "porPorcion": "3.7"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.2",
+          "porPorcion": "0.3"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "18.8",
+          "porPorcion": "28.2"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "1",
+          "porPorcion": "1.5"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "25",
+          "porPorcion": "37.5"
+        }
+      ]
+    }
   },
   {
-    "id": "3865",
-    "nombre": "Galletas de Arroz Mizos Chocolate 20 g",
-    "marca": "Mizos",
-    "precio": 560,
-    "precioOriginal": 560,
+    "id": "5799",
+    "nombre": "Limón Malla 1 kg",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 1790,
+    "precioOriginal": 1790,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/299914-250-250/Galletas-de-Arroz-Mizos-Chocolate-20-g.jpg?v=638776371393530000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galleta-mizos-envase-20-g-de-arroz-mizos-chocolate"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/348018-250-250/Limon-malla-1-kg.jpg?v=638776479219900000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "limon-jumbo-malla-1-kg",
+    "detalle": {
+      "descripcion": "Perfecto para tus ensaladas y cócteles. El limón es un poderoso antioxidante y alto en vitamina C, ideal para todas tus preparaciones.",
+      "ingredientes": [
+        "Limón"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "29",
+          "porPorcion": "29"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "1",
+          "porPorcion": "1"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.3",
+          "porPorcion": "0.3"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "53",
+          "porPorcion": "53"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "2.5",
+          "porPorcion": "2.5"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "2",
+          "porPorcion": "2"
+        }
+      ]
+    }
   },
   {
-    "id": "19189",
-    "nombre": "Galletas de Arroz Mizos Chocolate Naranja 25 g",
-    "marca": "Mizos",
-    "precio": 590,
-    "precioOriginal": 590,
+    "id": "5802",
+    "nombre": "Palta Hass Malla 1 kg",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 2490,
+    "precioOriginal": 3990,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/304211-250-250/Galletas-de-Arroz-Mizos-Chocolate-Naranja-25-g.jpg?v=638776379529100000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galletas-de-arroz-mizos-25-g-chocolate-y-naranja"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/348022-250-250/Palta-hass-malla-1-kg.jpg?v=638776479276530000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "palta-hass-jumbo-malla-1-kg",
+    "detalle": {
+      "descripcion": "<p>Su único sabor y gran cantidad de nutrientes, hacen de la Palta Hass la más comercializada en el mundo. Es simplemente infaltable en la mesa chilena.</p>",
+      "ingredientes": [
+        "Palta hass"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "167",
+          "porPorcion": "50.1"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "2",
+          "porPorcion": "0.6"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "15.4",
+          "porPorcion": "4.6"
+        },
+        {
+          "nombre": "Grasas Saturadas (g)",
+          "por100g": "2.1",
+          "porPorcion": "0.6"
+        },
+        {
+          "nombre": "Grasas Monoinsaturadas (g)",
+          "por100g": "9.8",
+          "porPorcion": "2.9"
+        },
+        {
+          "nombre": "Grasas Poliinsaturadas (g)",
+          "por100g": "1.8",
+          "porPorcion": "0.5"
+        },
+        {
+          "nombre": "Grasas trans (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Colesterol (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "1.8",
+          "porPorcion": "0.5"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0.3",
+          "porPorcion": "0.1"
+        },
+        {
+          "nombre": "Fibra (g)",
+          "por100g": "0.3",
+          "porPorcion": "0.1"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "8",
+          "porPorcion": "2.4"
+        }
+      ]
+    }
   },
   {
-    "id": "4072",
-    "nombre": "Galleta Triton Vainilla MultiPack 3 Unidades 126 g",
-    "marca": "Mckay",
-    "precio": 2369,
-    "precioOriginal": 2369,
+    "id": "492",
+    "nombre": "Bebida Coca-Cola Light 1.5 L",
+    "marca": "Coca-Cola",
+    "precio": 2090,
+    "precioOriginal": 2090,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/300198-250-250/Galleta-Triton-Vainilla-MultiPack-3-Unidades-126-g.jpg?v=638776371999300000",
-    "categoria": "Galletas Dulces",
-    "slug": "galletas-mckay-pack-3-126-g-cu-triton-sabor-chocolate-con-relleno-de-vainilla"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/297978-250-250/Bebida-Coca-Cola-light-15-L.jpg?v=638775745905830000",
+    "categorias": [
+      "Bebidas, Aguas y Jugos",
+      "Bebidas Gaseosas",
+      "Bebidas Light o Zero Azúcar"
+    ],
+    "slug": "bebida-coca-cola-light-15-l-botella-desechable",
+    "detalle": {
+      "descripcion": "Disfruta de tu Coca-Cola en todo momento. Refrescante y delicioso sabor. Ideal para compartirla en familia. Pruébala en todas sus variedades.",
+      "ingredientes": [
+        "Agua carbonatada",
+        "Color caramelo",
+        "ácido fosfórico",
+        "Saborizantes naturales",
+        "Aspartamo",
+        "Benzoato de sodio",
+        "Acesulfamo de potasio",
+        "Cafeína",
+        "ácido cítrico",
+        "Fenilalanina"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "0.2",
+          "porPorcion": "0.4"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
   },
   {
-    "id": "112808",
-    "nombre": "Galleta de Arroz Cuisine & Co Con Sal 100 g",
-    "marca": "Cuisine & Co",
-    "precio": 1390,
-    "precioOriginal": 1390,
+    "id": "78220",
+    "nombre": "Café Nescafé Fina Selección 200 g",
+    "marca": "Nescafé",
+    "precio": 8390,
+    "precioOriginal": 12290,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/380081-250-250/Galleta-de-arroz-con-sal-100-g.jpg?v=638776821767700000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galleta-de-arroz-con-sal-100-g-1918705"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/433866-250-250/Cafe-Nescafe-Fina-Seleccion-200-g.jpg?v=638823539795900000",
+    "categorias": [
+      "Desayuno",
+      "Café y Cafeteras",
+      "Café Liofilizado"
+    ],
+    "slug": "cafe-instantaneo-nescafe-200-g-fina-seleccion",
+    "detalle": {
+      "descripcion": "Café Nescafé Fina Selección un café instantáneo liofilizado con granos Arábica tostados y molidos 10 veces más finos para liberar el mejor aroma y sabor. Formato 200 g\r\n<p></p><p>\r\n<li>Café instantáneo liofilizado</li>\r\n<li>Sabor y aroma más intenso</li>\r\n<li>Contiene granos frescos de Arábica tostados y molidos 10 veces más finos</li>\r\n</p><p></p><p>\r\nCafé, Nescafé, Fina Selección, Colombia, Nescafé Fina, Fina Selección Nescafé, Desayuno, Café Nescafé.\r\n</p><p></p><p>\r\n<b>Ingredientes</b>: Café verdadero, 100% soluble, natural\r\n</p><p></p><p>\r\n<b>Modo de preparación</b>: 1,8g + 200 ml de agua\r\n</p><p></p><p>\r\n<b>Almacenamiento</b>: Conservar cerrado en lugar fresco y seco</p>",
+      "ingredientes": [
+        "100% café soluble"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "0kcal",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Grasas Saturadas (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Grasas Monoinsaturadas (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Grasas Poliinsaturadas (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Grasas trans (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Colesterol (mg)",
+          "por100g": "0mg",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0mg",
+          "porPorcion": "Por 100g"
+        }
+      ]
+    }
   },
   {
-    "id": "97582",
-    "nombre": "Galletas María Gullón Sin Azúcar Dulces Secas 400 g",
-    "marca": "Gullón",
-    "precio": 3759,
-    "precioOriginal": 3759,
+    "id": "1594",
+    "nombre": "Arroz Grado 1 Miraflores Grano Largo y Ancho 1 kg",
+    "marca": "Miraflores",
+    "precio": 1990,
+    "precioOriginal": 2890,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/370054-250-250/Galletas-Maria-sin-azucar-dulces-secas-400-g.jpg?v=638776780283200000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galleta-maria-gullon-s-a-dul-seca-400-g-1860583"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/298712-250-250/Arroz-grado-1-grano-largo-y-ancho-1-kg.jpg?v=638775755800600000",
+    "categorias": [
+      "Despensa",
+      "Arroz y Legumbres",
+      "Arroz"
+    ],
+    "slug": "arroz-grado-1-miraflores-1-kg-grano-largo-y-ancho",
+    "detalle": {
+      "descripcion": "Arroz Miraflores Grado 1, caracterizado por su longitud consistencia y sabor. Ideal para acompañar cualquier tipo de comida.",
+      "ingredientes": [
+        "Arroz grano largo ancho"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "335",
+          "porPorcion": "167.5"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "6.7",
+          "porPorcion": "3.4"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "1.3",
+          "porPorcion": "0.7"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "74",
+          "porPorcion": "37"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0.4",
+          "porPorcion": "0.2"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "2",
+          "porPorcion": "1"
+        }
+      ]
+    }
   },
   {
-    "id": "134658",
-    "nombre": "Galletas Selz Cracker Orégano 90 g",
-    "marca": "Selz",
-    "precio": 550,
-    "precioOriginal": 550,
+    "id": "25260",
+    "nombre": "Champiñón Bandeja 200 g",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 1690,
+    "precioOriginal": 1690,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/323555-250-250/Galletas-Cracker-Ore-Oli-90-g.jpg?v=638776426979900000",
-    "categoria": "Galletas Saladas",
-    "slug": "galletas-cracker-ore-oli-90gr-1989466"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/355100-250-250/Champiñon-bandeja-200-g.jpg?v=638776705195000000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "champinon-200g",
+    "detalle": {
+      "descripcion": "Bandeja de champiñones de 200 g. Muy útil para distintos tipos de preparaciones.",
+      "ingredientes": [
+        "Champiñón entero"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "29",
+          "porPorcion": "58"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "4.7",
+          "porPorcion": "9.4"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.6",
+          "porPorcion": "1.2"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0.9",
+          "porPorcion": "1.8"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0.5",
+          "porPorcion": "1"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
   },
   {
-    "id": "2601",
-    "nombre": "Galletas Mini Selz Clásicas 35 g",
-    "marca": "Arcor",
-    "precio": 290,
-    "precioOriginal": 290,
+    "id": "68981",
+    "nombre": "Agua Benedictino Sin Gas Bidón 6.5 L",
+    "marca": "Benedictino",
+    "precio": 2150,
+    "precioOriginal": 2150,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/346386-250-250/Galletas-mini-Selz-35-g.jpg?v=638776458329600000",
-    "categoria": "Galletas Saladas",
-    "slug": "galletas-arcor-galleta-mini-selz"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/361976-250-250/Agua-sin-gas-bidon-65-L.jpg?v=638776740365200000",
+    "categorias": [
+      "Bebidas, Aguas y Jugos",
+      "Jugos",
+      "Limonadas"
+    ],
+    "slug": "agua-purificada-sin-gas-benedictino-6-5-l",
+    "detalle": {
+      "descripcion": "El agua Benedictino es perfecta para los amantes de lo natural, con su increíble pureza sentirás como estar bebiéndola directamente desde la montaña.",
+      "ingredientes": [
+        "Agua purificada sin gas"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
   },
   {
-    "id": "2616",
-    "nombre": "Galletas Arroz Selz Envase 100 g",
-    "marca": "Selz",
-    "precio": 1750,
-    "precioOriginal": 1750,
+    "id": "139688",
+    "nombre": "Pan Molde Ideal Blanco XL 750 g",
+    "marca": "Ideal",
+    "precio": 2989,
+    "precioOriginal": 2989,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/346393-250-250/Galletas-arroz-envase-100-g.jpg?v=638776458438030000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galletas-selz-envase-100-g-arroz"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/333143-250-250/Pan-Molde-Ideal-Blanco-XL-750-g.jpg?v=638776434632100000",
+    "categorias": [
+      "Panadería y Pastelería",
+      "Panadería envasada",
+      "Pan de Molde"
+    ],
+    "slug": "m-ideal-bco-xl-750",
+    "detalle": {
+      "descripcion": "El Pan Molde Ideal Blanco XL de 750 gramos es perfecto para tus desayunos y meriendas. Con una textura suave y un sabor delicioso, este pan es ideal para hacer sándwiches y tostadas. Su tamaño XL asegura que tengas suficiente pan para toda la familia.",
+      "ingredientes": [
+        "Harina de trigo",
+        "Agua",
+        "Levadura",
+        "Azúcar",
+        "Aceite de maravilla",
+        "Tocoferoles",
+        "Sal",
+        "Gluten",
+        "Mono y diglicéridos de ácidos grasos",
+        "ácido láctico",
+        "ácido sórbico",
+        "Datem",
+        "Propionato de calcio",
+        "ácido ascórbico",
+        "Fibra de soya",
+        "Saborizante natural",
+        "Soya"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "257",
+          "porPorcion": "133.6"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "9.8",
+          "porPorcion": "5.1"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "3.3",
+          "porPorcion": "1.7"
+        },
+        {
+          "nombre": "Grasas Saturadas (g)",
+          "por100g": "0.9",
+          "porPorcion": "0.5"
+        },
+        {
+          "nombre": "Grasas Monoinsaturadas (g)",
+          "por100g": "0.7",
+          "porPorcion": "0.4"
+        },
+        {
+          "nombre": "Grasas Poliinsaturadas (g)",
+          "por100g": "1.7",
+          "porPorcion": "0.9"
+        },
+        {
+          "nombre": "Grasas trans (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Colesterol (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "47",
+          "porPorcion": "24.4"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "4.9",
+          "porPorcion": "2.5"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "392",
+          "porPorcion": "203.8"
+        }
+      ]
+    }
   },
   {
-    "id": "3866",
-    "nombre": "Galletas de Arroz Mizos Manzana 16 g",
-    "marca": "Mizos",
-    "precio": 560,
-    "precioOriginal": 560,
+    "id": "389",
+    "nombre": "Bebida Coca-Cola Original 1.5 L",
+    "marca": "Coca-Cola",
+    "precio": 2090,
+    "precioOriginal": 2090,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/299925-250-250/Galletas-de-Arroz-Mizos-Manzana-16-g.jpg?v=638776371422870000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galletas-de-arroz-mizos-16-g-sabor-manzana"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/297888-250-250/Bebida-Coca-Cola-original-15-L.jpg?v=638775744756600000",
+    "categorias": [
+      "Bebidas, Aguas y Jugos",
+      "Bebidas Gaseosas",
+      "Bebidas Regulares"
+    ],
+    "slug": "bebida-coca-cola-15-l-botella-desechable",
+    "detalle": {
+      "descripcion": "Disfruta de tu Coca-Cola en todo momento. Refrescante y delicioso sabor. Ideal para compartirla en familia. Pruébala en todas sus variedades.",
+      "ingredientes": [
+        "Agua carbonatada",
+        "Azúcar",
+        "Color caramelo",
+        "ácido fosfórico",
+        "Saborizantes naturales",
+        "Cafeína",
+        "Sucralosa"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "32",
+          "porPorcion": "64"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "7.8",
+          "porPorcion": "15.6"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "7.8",
+          "porPorcion": "15.6"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
   },
   {
-    "id": "63437",
-    "nombre": "Galletas Triton Limón - White 126 g",
-    "marca": "Mckay",
-    "precio": 839,
-    "precioOriginal": 839,
+    "id": "1396",
+    "nombre": "Choclo Congelado Minuto Verde 100% Natural 500 g",
+    "marca": "Minuto Verde",
+    "precio": 1990,
+    "precioOriginal": 1990,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/361302-250-250/Galletas-sandwich-Triton-limon-white-126g.jpg?v=638776736609970000",
-    "categoria": "Galletas Dulces",
-    "slug": "galleta-triton-mckay-126-g"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/298583-250-250/Choclo-Congelado-100--Natural-500-g.jpg?v=638775754140930000",
+    "categorias": [
+      "Congelados",
+      "Verduras Congeladas",
+      "Choclos y Arvejas"
+    ],
+    "slug": "choclo-minuto-verde-bolsa-500-g-congelado-2",
+    "detalle": {
+      "descripcion": "Choclo 500 g es ideal para realizar esa rica preparación que tenías en mente. En <b>Minuto Verde</b> elaboramos alimentos saludables, prácticos, ricos y nutritivos. Buscamos permanentemente la innovación y trabajamos con los más altos estándares de calidad Somos una empresa sustentable, respetuosa del medioambiente, entregando a nuestros colaboradores un grato clima laboral, inclusivo y oportunidades de desarrollo profesional. En la actualidad <b>Minuto Verde</b>, marca perteneciente a Alifrut es la compañía que posee la mayor capacidad de producción de hortalizas y frutas congeladas en Latinoamérica. Además de la mayor capacidad de almacenaje en frío del país (-18°C).",
+      "ingredientes": [
+        "Choclo en grano tierno seleccionado y congelado"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "79",
+          "porPorcion": "67.2"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "3.4",
+          "porPorcion": "2.9"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.3",
+          "porPorcion": "0.3"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "15.7",
+          "porPorcion": "13.3"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "3.9",
+          "porPorcion": "3.3"
+        },
+        {
+          "nombre": "Fibra (g)",
+          "por100g": "3.4",
+          "porPorcion": "2.9"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
   },
   {
-    "id": "100098",
-    "nombre": "Galletas de Arroz Kupiec Con Chocolate Dark 90 g",
-    "marca": "Kupiec",
-    "precio": 2429,
-    "precioOriginal": 2429,
+    "id": "44040",
+    "nombre": "Pack 6 un. Bebida Coca Cola Zero Lata 350 cc",
+    "marca": "Coca-Cola",
+    "precio": 4090,
+    "precioOriginal": 5990,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/372326-250-250/Galletas-de-arroz-con-chocolate-dark-90-g.jpg?v=638776790809130000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "gall-de-arroz-con-choc-dark-kupiec-90-g-1867356"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/445847-250-250/Pack-6-un-Bebida-Coca-Cola-Zero-Lata-350-cc.jpg?v=638839753674430000",
+    "categorias": [
+      "Bebidas, Aguas y Jugos",
+      "Bebidas Gaseosas",
+      "Bebidas en Lata e Individuales"
+    ],
+    "slug": "pack-bebida-coca-cola-zero-6-unid-350-cc-c-u",
+    "detalle": {
+      "descripcion": "Disfruta de tu Coca-Cola en todo momento. Refrescante y delicioso sabor. Ideal para compartirla en familia. Pruébala en todas sus variedades.",
+      "ingredientes": [
+        "Agua carbonatada",
+        "Color caramelo",
+        "ácido fosfórico",
+        "Aspartamo",
+        "Saborizantes naturales",
+        "Benzoato de sodio",
+        "Acesulfamo de potasio",
+        "Citrato de sodio",
+        "Cafeína",
+        "Fenilalanina"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "0.2",
+          "porPorcion": "0.4"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
   },
   {
-    "id": "18928",
-    "nombre": "Galletas Biscoff Caramelo 250 g",
-    "marca": "Biscoff",
-    "precio": 3250,
-    "precioOriginal": 3250,
+    "id": "12470",
+    "nombre": "Mandarina Granel",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 1295,
+    "precioOriginal": 1295,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/304173-250-250/Galletas-Biscoff-caramelo-250-g.jpg?v=638776379345630000",
-    "categoria": "Galletas Dulces",
-    "slug": "galletas-biscoff-250-g-sabor-caramelo"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/351219-250-250/Mandarina-granel.jpg?v=638776684524000000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Frutas",
+      "Fruta"
+    ],
+    "slug": "mandarina-granel",
+    "detalle": {
+      "descripcion": "Deliciosas Mandarinas, ideales para su consumo a diario de la manera que prefieras; en un rico jugo natural o un delicioso postre de frutas.",
+      "ingredientes": [
+        "Mandarina"
+      ],
+      "tablaNutricional": []
+    }
   },
   {
-    "id": "134229",
-    "nombre": "Galleta Mini Ecovida Chip Chocolate Sin Azúcar 30 g",
-    "marca": "Ecovida",
-    "precio": 420,
-    "precioOriginal": 420,
+    "id": "5638",
+    "nombre": "Frutilla Pote 300 g",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 2490,
+    "precioOriginal": 2490,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/322336-250-250/Galletas-Mini-Ecovida-Chips-Chocolate-Sin-Azucar-30-g.jpg?v=638776425933570000",
-    "categoria": "Galletas Dulces",
-    "slug": "gall-mini-chips-chocolate-s-azucar-30-gr-1982933"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/347934-250-250/Frutillas-pote-300-g.jpg?v=638776478088100000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Frutas",
+      "Fruta"
+    ],
+    "slug": "frutilla-hortifrut-pote-300-g-2",
+    "detalle": {
+      "descripcion": "Las Frutillas en Pote son perfectas para disfrutar solas o acompañadas de postres y cereales. Disfruta de su sabor dulce y fresco en cualquier momento del día.",
+      "ingredientes": [
+        "Frutilla"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "30",
+          "porPorcion": "30"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0.7",
+          "porPorcion": "0.7"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.1",
+          "porPorcion": "0.1"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "7.4",
+          "porPorcion": "7.4"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "7.1",
+          "porPorcion": "7.1"
+        },
+        {
+          "nombre": "Fibra (g)",
+          "por100g": "1.3",
+          "porPorcion": "1.3"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
   },
   {
-    "id": "92593",
-    "nombre": "Galletas de Arroz Mizos Chocolate Naranja Familiar 150 g",
-    "marca": "Mizos",
-    "precio": 3790,
-    "precioOriginal": 3790,
+    "id": "12333",
+    "nombre": "Salsa de Tomate Malloa Italiana 200 g 6 un.",
+    "marca": "Malloa",
+    "precio": 4390,
+    "precioOriginal": 4390,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/312250-250-250/Galletas-de-Arroz-Mizos-Chocolate-Naranja-Familiar-150-g.jpg?v=638776396032130000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galleta-de-arroz-chocolate-naranja-familiar-150-g"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/303274-250-250/Salsa-de-Tomate-Malloa-Italiana-200-g-6-un.jpg?v=638776376879530000",
+    "categorias": [
+      "Despensa",
+      "Pastas y Salsas",
+      "Salsas para Pastas"
+    ],
+    "slug": "salsa-de-tomate-italiana-malloa-pack-6-unid-200-g-cu",
+    "detalle": {
+      "descripcion": "Salsa de Tomate Malloa es un producto elaborado bajo los más estrictos controles de calidad que caracterizan todos sus productos. Para su elaboración se utilizan tomates cuidadosamente seleccionados gacias a lo cual lo gamos su sabor, textura y consistenc",
+      "ingredientes": [
+        "Agua",
+        "Concentrado de tomate",
+        "Almidón",
+        "Almidón de maíz modificado",
+        "Azúcar",
+        "Sal",
+        "Cebolla",
+        "Cebolla deshidratada",
+        "Sorbato de potasio",
+        "Orégano",
+        "ácido cítrico",
+        "Ajo",
+        "Ajo deshidratado"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "43",
+          "porPorcion": "8.6"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "1.2",
+          "porPorcion": "0.2"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.1",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Saturadas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "9.2",
+          "porPorcion": "1.8"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "5.9",
+          "porPorcion": "1.2"
+        },
+        {
+          "nombre": "Fibra (g)",
+          "por100g": "0.3",
+          "porPorcion": "0.1"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "298",
+          "porPorcion": "59.6"
+        }
+      ]
+    }
   },
   {
-    "id": "134223",
-    "nombre": "Galleta Mini Ecovida Zanahoria Sin Azúcar 30 g",
-    "marca": "Ecovida",
-    "precio": 420,
-    "precioOriginal": 420,
+    "id": "18604",
+    "nombre": "Lechuga Hidropónica Española 1 un.",
+    "marca": "Pura Hoja",
+    "precio": 1590,
+    "precioOriginal": 1590,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/322615-250-250/Galletas-Mini-Ecovida-Zanahoria-Sin-Azucar-30-g.jpg?v=638776426268430000",
-    "categoria": "Galletas Dulces",
-    "slug": "galleta-mini-zanahoria-s-azucar-30-gr-1982932"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/353074-250-250/Lechuga-española-hidroponica-unid.jpg?v=638776695897830000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "lechuga-espanola-hidroponica-unid-2",
+    "detalle": {
+      "descripcion": "Disfruta de la frescura y el sabor de la lechuga hidropónica española, cultivada bajo condiciones óptimas para ofrecerte lo mejor.",
+      "ingredientes": [
+        "Lechuga española hidropónica"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "13",
+          "porPorcion": "6.5"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "1.35",
+          "porPorcion": "0.7"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.22",
+          "porPorcion": "0.1"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "2.23",
+          "porPorcion": "1.1"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0.94",
+          "porPorcion": "0.5"
+        },
+        {
+          "nombre": "Fibra (g)",
+          "por100g": "1.1",
+          "porPorcion": "0.6"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "5",
+          "porPorcion": "2.5"
+        }
+      ]
+    }
   },
   {
-    "id": "19187",
-    "nombre": "Galletas Tika Mini Crackers Chía y Romero 140 g",
-    "marca": "Tika",
-    "precio": 2399,
-    "precioOriginal": 2399,
+    "id": "1730",
+    "nombre": "Café Nescafé Tradición 170 g",
+    "marca": "Nescafé",
+    "precio": 8190,
+    "precioOriginal": 8190,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/445275-250-250/Galletas-Tika-Mini-Crackers-Chia-y-Romero-140-g.jpg?v=638838833761300000",
-    "categoria": "Galletas Saladas",
-    "slug": "galletas-crackers-tika-140-g-chia-y-romero"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/455275-250-250/Cafe-Nescafe-Tradicion-170-g.jpg?v=638856156166030000",
+    "categorias": [
+      "Desayuno",
+      "Café y Cafeteras",
+      "Café Instantáneo"
+    ],
+    "slug": "cafe-instantaneo-nescafe-tradicion-170-g",
+    "detalle": {
+      "descripcion": "Café Nescafé Tradición 170g, en una cómoda presentación para llevar contigo a todas partes.",
+      "ingredientes": [
+        "100% café"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "0kcal",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Grasas Saturadas (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Grasas Monoinsaturadas (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Grasas Poliinsaturadas (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Grasas trans (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Colesterol (mg)",
+          "por100g": "0mg",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0g",
+          "porPorcion": "Por 100g"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0mg",
+          "porPorcion": "Por 100g"
+        }
+      ]
+    }
   },
   {
-    "id": "76904",
-    "nombre": "Galletas Gullón Sand Vitalday Avellana 220 g",
-    "marca": "Gullón",
+    "id": "8825",
+    "nombre": "Pan Molde Castaño Miga Sándwich Sin Borde 440 g",
+    "marca": "Castaño",
+    "precio": 3589,
+    "precioOriginal": 3589,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/300988-250-250/Pan-molde-miga-sandwich-sin-borde-440-g.jpg?v=638776374323500000",
+    "categorias": [
+      "Panadería y Pastelería",
+      "Panadería envasada",
+      "Pan de Molde"
+    ],
+    "slug": "pan-miga-sandwich-castano-bolsa-460-g-sin-bor",
+    "detalle": {
+      "descripcion": "Fantástico Pan molde miga sándwich sin borde 440 g, especial para disfrutarlo en un delicioso sándwich. En Castaño, trabajamos diariamente para asegurar la calidad de todos nuestros productos, para que tú y tú familia puedan siempre disfrutar de lo rico y sabroso que nos caracteriza desde 1933.",
+      "ingredientes": [
+        "Harina de trigo",
+        "Agua",
+        "Aceite de maravilla",
+        "Tbhq antioxidante",
+        "Levadura",
+        "Azúcar",
+        "Sal",
+        "Gluten de trigo",
+        "Propionato de calcio",
+        "Estearoil lactilato de sodio",
+        "Mono y diglicéridos de ácidos grasos",
+        "ácido láctico",
+        "Goma guar",
+        "ácido sórbico",
+        "ácido ascórbico",
+        "Gluten"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "268",
+          "porPorcion": "131.3"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "8.8",
+          "porPorcion": "4.3"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "4.1",
+          "porPorcion": "2"
+        },
+        {
+          "nombre": "Grasas Saturadas (g)",
+          "por100g": "1",
+          "porPorcion": "0.5"
+        },
+        {
+          "nombre": "Grasas Monoinsaturadas (g)",
+          "por100g": "0.8",
+          "porPorcion": "0.4"
+        },
+        {
+          "nombre": "Grasas Poliinsaturadas (g)",
+          "por100g": "2.2",
+          "porPorcion": "1.1"
+        },
+        {
+          "nombre": "Grasas trans (g)",
+          "por100g": "0.1",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Colesterol (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "48.7",
+          "porPorcion": "23.9"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "4",
+          "porPorcion": "2"
+        },
+        {
+          "nombre": "Fibra (g)",
+          "por100g": "1.9",
+          "porPorcion": "0.9"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "381",
+          "porPorcion": "186.7"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94519",
+    "nombre": "Pimiento Rojo Extra",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 1790,
+    "precioOriginal": 1790,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/368596-250-250/Pimiento-rojo-extra.jpg?v=638776773409300000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "pimiento-rojo-extra",
+    "detalle": {
+      "descripcion": "<p>El pimiento rojo destaca por su gran aporte de vitamica c, fibra y antioxidantes.</p>",
+      "ingredientes": [
+        "Pimiento rojo"
+      ],
+      "tablaNutricional": []
+    }
+  },
+  {
+    "id": "5837",
+    "nombre": "Zapallo Italiano 1 un.",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 790,
+    "precioOriginal": 790,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/348057-250-250/Zapallo-italiano-un.jpg?v=638776479756130000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "zapallo-italiano-jumbo-unid",
+    "detalle": {
+      "descripcion": "Encuentra la mejor variedad de frutas y verduras frescas navegando en nuestro sitio web.",
+      "ingredientes": [
+        "Zapallo italiano"
+      ],
+      "tablaNutricional": []
+    }
+  },
+  {
+    "id": "5774",
+    "nombre": "Cebolla Malla 3 un.",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 1183,
+    "precioOriginal": 1690,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/196761-250-250/Cebolla-3-unid.jpg?v=638682284728400000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "cebolla-3-unid",
+    "detalle": {
+      "descripcion": "La cebolla es un ingrediente básico en nuestra cocina. No solo aporta sabor, ya que entre sus capas esconde un sinfin de propiedades beneficiosas para nuestra salud.",
+      "ingredientes": [
+        "Cebolla"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "40",
+          "porPorcion": "24"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "1.1",
+          "porPorcion": "0.7"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.1",
+          "porPorcion": "0.1"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "9.34",
+          "porPorcion": "5.6"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "4.24",
+          "porPorcion": "2.5"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "4",
+          "porPorcion": "2.4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "15071",
+    "nombre": "Salsa de Tomate Pomarola 200 g 6 un.",
+    "marca": "Pomarola",
     "precio": 2990,
-    "precioOriginal": 2990,
+    "precioOriginal": 4090,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/310605-250-250/Galletas-Gullon-Vitalday-Sand-Cer-Choco-220-g.jpg?v=638776391878770000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galleta-gullon-sand-vitalday-avellana-220-g"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/352363-250-250/Salsa-de-tomate-Pomarola-Carozzi-pack-6-unid-200-g-c-u-Italiana.jpg?v=638776692625270000",
+    "categorias": [
+      "Despensa",
+      "Pastas y Salsas",
+      "Salsas para Pastas"
+    ],
+    "slug": "salsa-de-tomate-pomarola-carozzi-pack-6-unid-200-g-c-u-italiana",
+    "detalle": {
+      "descripcion": "Simplemente infaltable en tus pastas. Se trata de la clásica salsa italiana de tomate Pomarola de Carozzi. ¡Aprovecha el pack de 6 unidades!",
+      "ingredientes": [
+        "Agua",
+        "Concentrado de tomates",
+        "Sal",
+        "Azúcar",
+        "Carragenina",
+        "Cebolla",
+        "Sorbato de potasio",
+        "Benzoato de sodio",
+        "ácido cítrico",
+        "Orégano",
+        "Ajo",
+        "Pimienta"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "40",
+          "porPorcion": "16"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "1.3",
+          "porPorcion": "0.5"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.1",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "8.4",
+          "porPorcion": "3.4"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "6.8",
+          "porPorcion": "2.7"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "398",
+          "porPorcion": "159.2"
+        }
+      ]
+    }
   },
   {
-    "id": "134666",
-    "nombre": "Galletas Selz Cracker Merkén 90 g",
-    "marca": "Selz",
-    "precio": 550,
-    "precioOriginal": 550,
+    "id": "5832",
+    "nombre": "Zanahoria Bolsa 1 kg",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 1290,
+    "precioOriginal": 1290,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/322885-250-250/Galletas-Cracker-Merken-90-g.jpg?v=638776426480130000",
-    "categoria": "Galletas Saladas",
-    "slug": "galletas-cracker-merken-90gr-1989467"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/348051-250-250/Zanahoria-bolsa-1-kg.jpg?v=638776479671400000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "zanahoria-jumbo-1-kg",
+    "detalle": {
+      "descripcion": "Zanahorias frescas en práctica bolsa de 1 kg. Ideales para ensaladas, jugos o como snack.",
+      "ingredientes": [
+        "Zanahoria"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "41",
+          "porPorcion": "29.5"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0.93",
+          "porPorcion": "0.7"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.24",
+          "porPorcion": "0.2"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "9.58",
+          "porPorcion": "6.9"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "4.74",
+          "porPorcion": "3.4"
+        },
+        {
+          "nombre": "Fibra (g)",
+          "por100g": "2.8",
+          "porPorcion": "2"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "69",
+          "porPorcion": "49.7"
+        }
+      ]
+    }
   },
   {
-    "id": "38767",
-    "nombre": "Galletas de Arroz Integral Ricecrisps Multigrano 100 g",
-    "marca": "Ricecrisps",
-    "precio": 3550,
-    "precioOriginal": 3550,
+    "id": "5808",
+    "nombre": "Pepino Ensalada 1 un.",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 790,
+    "precioOriginal": 790,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/307395-250-250/Galletas-de-arroz-integral-multigrano-100-g.jpg?v=638776384632170000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galletas-de-arroz-integral-multigrano-100-g"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/348029-250-250/Pepino-ensalada-un.jpg?v=638776479365130000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "pepino-ensalada-jumbo-unid",
+    "detalle": {
+      "descripcion": "Pepino fresco, perfecto para ensaladas o como snack saludable.",
+      "ingredientes": [
+        "Pepino ensalada"
+      ],
+      "tablaNutricional": []
+    }
   },
   {
-    "id": "112809",
-    "nombre": "Galleta de Arroz Cuisine & Co Manzana 16 g",
+    "id": "321",
+    "nombre": "Agua Purificada Nestlé Sin Gas Pura Vida 6 L",
+    "marca": "Nestlé",
+    "precio": 2090,
+    "precioOriginal": 2090,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/297849-250-250/Agua-Purificada-Nestle-Sin-Gas-Pura-Vida-6-L.jpg?v=638775744176570000",
+    "categorias": [
+      "Bebidas, Aguas y Jugos",
+      "Jugos",
+      "Limonadas"
+    ],
+    "slug": "agua-mineral-sin-gas-nestle-bidon-de-6-l-pure-life",
+    "detalle": {
+      "descripcion": "Nestlé Pure Life es el agua purificada con toda la confianza y calidad de Nestlé, por eso es la mejor opción para hidratar saludablemente a toda la familia. Formato de 6 L.",
+      "ingredientes": [
+        "Agua purificada",
+        "Cloruro de calcio",
+        "Cloruro de magnesio"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "279",
+    "nombre": "Agua Mineral Cachantun Gasificada 1.6 L",
+    "marca": "Cachantun",
+    "precio": 1150,
+    "precioOriginal": 1150,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/297815-250-250/Agua-Mineral-Cachantun-Gasificada-16-L.jpg?v=638775743709100000",
+    "categorias": [
+      "Bebidas, Aguas y Jugos",
+      "Aguas",
+      "Aguas Minerales"
+    ],
+    "slug": "agua-mineral-con-gas-cachantun-16-l-botella-desechable",
+    "detalle": {
+      "descripcion": "Refrescante Agua mineral con gas 1.6 L, especial para disfrutarla y compartirla en cualquier momento. Sabor puro, ideal para refrescarte e hidratarte de la mejor manera.",
+      "ingredientes": [
+        "Agua mineral gasificada"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "2",
+          "porPorcion": "4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "873",
+    "nombre": "Néctar Watt's Naranja Sin Azúcar Añadida 1.5 L",
+    "marca": "Watt's",
+    "precio": 1990,
+    "precioOriginal": 1990,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/298229-250-250/Nectar-Watt-s-Naranja-Sin-Azucar-Añadida-15-L.jpg?v=638775749824370000",
+    "categorias": [
+      "Bebidas, Aguas y Jugos",
+      "Jugos",
+      "Jugos y Néctar"
+    ],
+    "slug": "nectar-naranja-sin-azucar-anadida-15-l",
+    "detalle": {
+      "descripcion": "Néctar de Naranja Light Watt´s elaborado con jugo de naranja sin azúcar añadida. Un Jugo 100% natural bajo en calorías y sin saborizantes artificiales.",
+      "ingredientes": [
+        "Agua",
+        "Jugo de naranja",
+        "ácido cítrico",
+        "Aspartamo",
+        "Saborizante idéntico a natural",
+        "ácido ascórbico",
+        "Benzoato de sodio",
+        "Sorbato de potasio",
+        "Colorante betacaroteno",
+        "Fenilalanina"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "22",
+          "porPorcion": "44"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0.4",
+          "porPorcion": "0.8"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.1",
+          "porPorcion": "0.2"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "5.1",
+          "porPorcion": "10.2"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "4.4",
+          "porPorcion": "8.8"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "11",
+          "porPorcion": "22"
+        }
+      ]
+    }
+  },
+  {
+    "id": "304",
+    "nombre": "Agua Mineral Vital Gasificada 1.6 L",
+    "marca": "Vital",
+    "precio": 1050,
+    "precioOriginal": 1050,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/297833-250-250/Agua-mineral-con-gas-16-L.jpg?v=638775743963170000",
+    "categorias": [
+      "Bebidas, Aguas y Jugos",
+      "Aguas",
+      "Aguas Minerales"
+    ],
+    "slug": "agua-mineral-con-gas-vital-16-l-botella-desechable",
+    "detalle": {
+      "descripcion": "<p>Agua Mineral con Gas de Chanqueahue y obtenida de las fuentes de la Cordillera de los Andes. Agua saludable con Vitaminas y Minerales.</p>",
+      "ingredientes": [
+        "Agua mineral natural gasificada"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5657",
+    "nombre": "Naranja Malla 2 kg",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 3590,
+    "precioOriginal": 3590,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/347943-250-250/Naranja-malla-2-kg.jpg?v=638776478204370000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Frutas",
+      "Fruta"
+    ],
+    "slug": "naranja-2-kg",
+    "detalle": {
+      "descripcion": "La naranja es un poderoso antioxidante gracias a su alto contenido de vitamina C. Su consumo es una excelente forma de proteger el sistema inmunológico.",
+      "ingredientes": [
+        "Naranja"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Grasas Saturadas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Monoinsaturadas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Poliinsaturadas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas trans (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Colesterol (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5768",
+    "nombre": "Brócoli Films 1 un.",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 1690,
+    "precioOriginal": 1690,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/347994-250-250/Brocoli-films-un.jpg?v=638776478878200000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "brocoli-jumbo-unid",
+    "detalle": {
+      "descripcion": "El brócoli es un excelente aporte para mantener tus huesos sanos y fuertes. Es un vegetal rico en vitaminas y minerales, perfecto para cualquier ensalada.",
+      "ingredientes": [
+        "Brócoli"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "26",
+          "porPorcion": "26"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "3",
+          "porPorcion": "3"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.4",
+          "porPorcion": "0.4"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "5.1",
+          "porPorcion": "5.1"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "1.7",
+          "porPorcion": "1.7"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "26",
+          "porPorcion": "26"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5836",
+    "nombre": "Zapallo Camote 1 un.",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 1990,
+    "precioOriginal": 1990,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/348055-250-250/Zapallo-camote-un.jpg?v=638776479732530000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "zapallo-camote-jumbo-unid",
+    "detalle": {
+      "descripcion": "El zapallo camote aporta gran cantidad de fibra y está compuesto casi en totalidad por agua. Tiene cualidades depurativas, laxantes y diuréticas.",
+      "ingredientes": [
+        "Zapallo en trozo"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "26",
+          "porPorcion": "26"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "1",
+          "porPorcion": "1"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.1",
+          "porPorcion": "0.1"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "6.5",
+          "porPorcion": "6.5"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "2.76",
+          "porPorcion": "2.8"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "1",
+          "porPorcion": "1"
+        }
+      ]
+    }
+  },
+  {
+    "id": "530",
+    "nombre": "Bebida Sprite Sin Azúcar 1.5 L",
+    "marca": "Sprite",
+    "precio": 2090,
+    "precioOriginal": 2090,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/298003-250-250/Bebida-Zero-15-L.jpg?v=638775746250300000",
+    "categorias": [
+      "Bebidas, Aguas y Jugos",
+      "Bebidas Gaseosas",
+      "Bebidas Light o Zero Azúcar"
+    ],
+    "slug": "bebida-sprite-zero-15-l-botella-desechable",
+    "detalle": {
+      "descripcion": "Bebida Sprite Zero 1.5 L.  Sprite Sin Azúcar es una bebida refrescante de sabor lima-limón, transparente y con gas, con el auténtico sabor de Sprite y cero azúcares. Con una personalidad única, es genuino y tiene un fuerte carácter refrescante. Sprite es ideal para calmar la sed en cualquier momento, o acompañar tus comidas y disfrutar de una experiencia con cero azúcares. Además, ahora puedes disfrutar del sabor de siempre con una nueva imagen más moderna y actual, más impactante",
+      "ingredientes": [
+        "Agua carbonatada",
+        "ácido cítrico",
+        "Citrato de sodio",
+        "Aspartamo",
+        "Benzoato de sodio",
+        "Acesulfamo de potasio",
+        "Saborizantes naturales",
+        "Fenilalanina"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "1.1",
+          "porPorcion": "2.2"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3513",
+    "nombre": "Té Ceylán Supremo Premium 200 g 100 un.",
+    "marca": "Supremo",
+    "precio": 5490,
+    "precioOriginal": 5490,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/299897-250-250/Te-Ceylan-Premium-200-g-100-un.jpg?v=638776371360070000",
+    "categorias": [
+      "Desayuno",
+      "Té, Mate y Hierbas",
+      "Té Negro"
+    ],
+    "slug": "te-ceylan-supremo-premium-200-g-100-unid",
+    "detalle": {
+      "descripcion": "Ceylán Premium es un té de gran cuerpo e intensidad en sus notas de sabor y aroma. Es cultivado y seleccionado a diferentes altitudes en Sri Lanka logrando una experiencia de sabor y equilibrio que cautiva.",
+      "ingredientes": [
+        "Té negro (camellia sinensis)"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1616",
+    "nombre": "Arroz Grado 1 Tucapel Gran Selección Grano Largo y Ancho 1 kg",
+    "marca": "Tucapel",
+    "precio": 2540,
+    "precioOriginal": 2540,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/298719-250-250/Arroz-grado-1-gran-seleccion-grano-largo-y-ancho-1-kg.jpg?v=638775755931030000",
+    "categorias": [
+      "Despensa",
+      "Arroz y Legumbres",
+      "Arroz"
+    ],
+    "slug": "arroz-grado-1-tucapel-gran-seleccion-grano-largo-y-ancho-1-kg",
+    "detalle": {
+      "descripcion": "<p>Arroz Grado 1 Tucapel con granos largos y anchos de Gran Selección. El arroz grado 1 contiene un 95% de granos enteros, ideal para tus almuerzos y comidas.</p>",
+      "ingredientes": [
+        "Arroz grano largo ancho grado 1"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "337",
+          "porPorcion": "168.5"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "6.1",
+          "porPorcion": "3.1"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0.9",
+          "porPorcion": "0.5"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "76",
+          "porPorcion": "38"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0.3",
+          "porPorcion": "0.2"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "1.7",
+          "porPorcion": "0.9"
+        }
+      ]
+    }
+  },
+  {
+    "id": "61945",
+    "nombre": "Bebida Pepsi Zero 1.75 L",
+    "marca": "Pepsi Zero",
+    "precio": 1450,
+    "precioOriginal": 2290,
+    "stock": true,
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/431023-250-250/Bebida-Pepsi-Zero-175-L.jpg?v=638819718579300000",
+    "categorias": [
+      "Bebidas, Aguas y Jugos",
+      "Bebidas Gaseosas",
+      "Bebidas Light o Zero Azúcar"
+    ],
+    "slug": "bebida-pepsi-zero-pet-1750cc",
+    "detalle": {
+      "descripcion": "Prueba la exquisita Pepsi Zero en su formato familiar. Te refrescará en todo momento. Contiene 1.75 L.",
+      "ingredientes": [
+        "Agua carbonatada",
+        "Colorante caramelo",
+        "ácido fosfórico",
+        "Aspartamo",
+        "Cafeína",
+        "Saborizantes naturales",
+        "Acesulfamo de potasio",
+        "ácido cítrico",
+        "Fenilalanina"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "4",
+          "porPorcion": "8"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83588",
+    "nombre": "Aceite Vegetal Libre de Colesterol 900 ml",
     "marca": "Cuisine & Co",
-    "precio": 490,
-    "precioOriginal": 490,
+    "precio": 1850,
+    "precioOriginal": 1850,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/380073-250-250/Galleta-de-arroz-manzana-16-g.jpg?v=638776821726500000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galleta-de-arroz-manzana-16-g-1918707"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/365445-250-250/Aceite-vegetal-libre-de-colesterol-900-ml.jpg?v=638776759108030000",
+    "categorias": [
+      "Despensa",
+      "Aceites, Sal y Condimentos",
+      "Aceite"
+    ],
+    "slug": "aceite-vegetal-libre-de-colesterol-900-ml-cuisine-and-co-1800913",
+    "detalle": {
+      "descripcion": "Los aceites vegetales no tienen colesterol, ninguno de ellos, ni elevan el colesterol en sangre sino que por el contrario, contribuyen a elevar los niveles de colesterol bueno y por ende, hasta resultan beneficiosos para la salud cardiovascular.",
+      "ingredientes": [
+        "Aceite refinado de soya",
+        "Tbhq",
+        "ácido cítrico",
+        "Soya"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "831",
+          "porPorcion": "58.2"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "92.3",
+          "porPorcion": "6.5"
+        },
+        {
+          "nombre": "Grasas Saturadas (g)",
+          "por100g": "15.4",
+          "porPorcion": "1.1"
+        },
+        {
+          "nombre": "Grasas Monoinsaturadas (g)",
+          "por100g": "20",
+          "porPorcion": "1.4"
+        },
+        {
+          "nombre": "Grasas Poliinsaturadas (g)",
+          "por100g": "55.4",
+          "porPorcion": "3.9"
+        },
+        {
+          "nombre": "Grasas trans (g)",
+          "por100g": "1.5",
+          "porPorcion": "0.1"
+        },
+        {
+          "nombre": "Colesterol (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0.5",
+          "porPorcion": "0"
+        }
+      ]
+    }
   },
   {
-    "id": "45487",
-    "nombre": "Galletas de Arroz Tucapel Clásicas 150 g",
-    "marca": "Tucapel",
-    "precio": 1570,
-    "precioOriginal": 1570,
+    "id": "125769",
+    "nombre": "Pan Molde Ideal Blanco Artesano Masa Madre 550 g",
+    "marca": "Ideal",
+    "precio": 2989,
+    "precioOriginal": 2989,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/357770-250-250/Galletas-de-arroz-clasicas-150-g.jpg?v=638776720703230000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galletas-de-arroz-tucapel-clasicas-150-g"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/318882-250-250/Pan-Blanco-Artesano-Ideal-550-g.jpg?v=638776416053430000",
+    "categorias": [
+      "Panadería y Pastelería",
+      "Panadería envasada",
+      "Pan de Molde"
+    ],
+    "slug": "pan-blan-arte-550g",
+    "detalle": {
+      "descripcion": "Formula clean label, mismas características actuales diferenciadoras de Artesano",
+      "ingredientes": [
+        "Harina de trigo",
+        "Agua",
+        "Levadura",
+        "Harina de trigo fermentada",
+        "Azúcar",
+        "Aceite de maravilla",
+        "Tocoferoles",
+        "Gluten",
+        "Sal de mar",
+        "ácido láctico de origen natural",
+        "ácido ascórbico de origen natural",
+        "Lecitina de soya",
+        "Saborizante natural",
+        "Soya"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "247",
+          "porPorcion": "227.2"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "9.9",
+          "porPorcion": "9.1"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "3",
+          "porPorcion": "2.8"
+        },
+        {
+          "nombre": "Grasas Saturadas (g)",
+          "por100g": "0.4",
+          "porPorcion": "0.4"
+        },
+        {
+          "nombre": "Grasas Monoinsaturadas (g)",
+          "por100g": "0.7",
+          "porPorcion": "0.6"
+        },
+        {
+          "nombre": "Grasas Poliinsaturadas (g)",
+          "por100g": "1.7",
+          "porPorcion": "1.6"
+        },
+        {
+          "nombre": "Grasas trans (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Colesterol (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "45",
+          "porPorcion": "41.4"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "6.2",
+          "porPorcion": "5.7"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "336",
+          "porPorcion": "309.1"
+        }
+      ]
+    }
   },
   {
-    "id": "134214",
-    "nombre": "Galletas Ecovida Biscuit Zanahoria Sin Azúcar 100 g",
-    "marca": "Ecovida",
-    "precio": 1399,
-    "precioOriginal": 1399,
+    "id": "501",
+    "nombre": "Bebida Coca-Cola Zero 3 L",
+    "marca": "Coca-Cola",
+    "precio": 3290,
+    "precioOriginal": 3290,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/322325-250-250/Galletas-Ecovida-Biscuit-Zanahoria-Sin-Azucar-100-g.jpg?v=638776425912700000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galletas-biscuit-zanahoria-100-gr-1987207"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/297985-250-250/Bebida-Coca-Cola-Sin-Azucar-3-L.jpg?v=638775746000600000",
+    "categorias": [
+      "Bebidas, Aguas y Jugos",
+      "Bebidas Gaseosas",
+      "Bebidas Light o Zero Azúcar"
+    ],
+    "slug": "bebida-coca-cola-zero-3-l",
+    "detalle": {
+      "descripcion": "Disfruta de tu Coca-Cola en todo momento. Refrescante y delicioso sabor. Ideal para compartirla en familia. Pruébala en todas sus variedades.",
+      "ingredientes": [
+        "Agua carbonatada",
+        "Color caramelo",
+        "ácido fosfórico",
+        "Aspartamo",
+        "Saborizantes naturales",
+        "Benzoato de sodio",
+        "Acesulfamo de potasio",
+        "Citrato de sodio",
+        "Cafeína",
+        "Glicosidos de esteviol",
+        "Fenilalanina"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "0.2",
+          "porPorcion": "0.4"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "0",
+          "porPorcion": "0"
+        }
+      ]
+    }
   },
   {
-    "id": "140860",
-    "nombre": "Galleta Triton Mini Chocolate 40 g",
-    "marca": "Mckay",
-    "precio": 490,
-    "precioOriginal": 490,
+    "id": "5796",
+    "nombre": "Lechuga Escarola Bandeja 2 un.",
+    "marca": "Frutas y Verduras Propias",
+    "precio": 2590,
+    "precioOriginal": 2590,
     "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/335527-250-250/GALLETA-TRITON-MINI-CHOCOLATE-40GR.jpg?v=638776436556030000",
-    "categoria": "Galletas Dulces",
-    "slug": "galleta-triton-mini-chocolate-40gr-2004851"
-  },
-  {
-    "id": "134227",
-    "nombre": "Galletas Ecovida Biscuit Chip Chocolate Sin Azúcar 100 g",
-    "marca": "Ecovida",
-    "precio": 1399,
-    "precioOriginal": 1399,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/322300-250-250/Galletas-Ecovida-Biscuit-Chip-Chocolate-Sin-Azucar-100-g.jpg?v=638776425845670000",
-    "categoria": "Galletas Dulces",
-    "slug": "biscuit-chips-chocolate-100-gr-1987208"
-  },
-  {
-    "id": "92592",
-    "nombre": "Galletas de Arroz Mizos Chocolate Familiar 120 g",
-    "marca": "Mizos",
-    "precio": 3329,
-    "precioOriginal": 3329,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/312239-250-250/Galletas-de-Arroz-Mizos-Chocolate-Familiar-120-g.jpg?v=638776396006330000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galleta-de-arroz-chocolate-familiar-120-g"
-  },
-  {
-    "id": "19185",
-    "nombre": "Galletas Tika Mini Crackers Cúrcuma y Sésamo 140 g",
-    "marca": "Tika",
-    "precio": 2399,
-    "precioOriginal": 2399,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/445280-250-250/Galletas-Tika-Mini-Crackers-Curcuma-y-Sesamo-140-g.jpg?v=638838833791770000",
-    "categoria": "Galletas Saladas",
-    "slug": "galletas-crackers-tika-140-g-curcuma"
-  },
-  {
-    "id": "4018",
-    "nombre": "Galletas Gullón DietNature Chip Choco 150 g",
-    "marca": "Gullón",
-    "precio": 2499,
-    "precioOriginal": 2499,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/300032-250-250/Galletas-Gullon-DietNature-Chip-Choco-150-g.jpg?v=638776371621230000",
-    "categoria": "Galletas Dulces",
-    "slug": "galletas-gullon-125-g-diet-nature-choco-chips-sin-azucar"
-  },
-  {
-    "id": "131932",
-    "nombre": "Galletas Ecovida Zanahoria Biscuits Sin Azúcar 145g",
-    "marca": "Ecovida",
-    "precio": 1599,
-    "precioOriginal": 1599,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/321324-250-250/Galletas-Ecovida-Zanahoria-Biscuits-145-g.jpg?v=638776423004100000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galleta-de-zanahoria-biscuits-145gr-1980566"
-  },
-  {
-    "id": "138502",
-    "nombre": "Galletas Crackers Keto de Harina de Almendras y Sal de Mar 135 g",
-    "marca": "Grana",
-    "precio": 5390,
-    "precioOriginal": 5390,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/330754-250-250/Galletas-Crackers-Keto-de-Harina-de-Almendras-y-Sal-de-Mar-135-g.jpg?v=638776432664300000",
-    "categoria": "Galletas Saladas",
-    "slug": "gall-cracker-salmar-keto-veg-grana-135gr-2001345"
-  },
-  {
-    "id": "111014",
-    "nombre": "Galletas Caramel 150 g",
-    "marca": "Costa",
-    "precio": 920,
-    "precioOriginal": 920,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/378305-250-250/GALLETA-CARAMEL-COSTA-150-GR.jpg?v=638776814708500000",
-    "categoria": "Galletas Dulces",
-    "slug": "galleta-caramel-costa-150-gr-1900124"
-  },
-  {
-    "id": "55161",
-    "nombre": "Galletas de Arroz Tucapel Dulces 150 g",
-    "marca": "Tucapel",
-    "precio": 1570,
-    "precioOriginal": 1570,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/359621-250-250/Galletas-de-arroz-dulces-150-g.jpg?v=638776729044230000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galletas-de-arroz-tucapel-dulces-150-g"
-  },
-  {
-    "id": "3983",
-    "nombre": "Galletas Ecovida Coco sin Gluten 150 g",
-    "marca": "Ecovida",
-    "precio": 2419,
-    "precioOriginal": 2419,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/299962-250-250/Galletas-Ecovida-Coco-Sin-Gluten-150-g.jpg?v=638776371490830000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galletas-ecovida-150-g-de-coco-sin-gluten-2"
-  },
-  {
-    "id": "54975",
-    "nombre": "Galletas Gullón Oblea Vainilla 60 g",
-    "marca": "Gullón",
-    "precio": 1350,
-    "precioOriginal": 1350,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/359543-250-250/Galletas-Gullon-oblea-vainilla-70-g.jpg?v=638776728735130000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galletas-gullon-barquillo-vainilla-70-g"
-  },
-  {
-    "id": "127341",
-    "nombre": "Galletas Tika Mini Rice Pop Limón Frutilla 15 g",
-    "marca": "Tika",
-    "precio": 499,
-    "precioOriginal": 499,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/445353-250-250/Galletas-Tika-Mini-Rice-Pop-Limon-Frutilla-15-g.jpg?v=638838834043870000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "mini-rice-pop-limon-frutilla-tika-15-gr-1966556"
-  },
-  {
-    "id": "120838",
-    "nombre": "Galletas de Maíz Mizos Chocolate 20 g",
-    "marca": "Mizos",
-    "precio": 580,
-    "precioOriginal": 580,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/317488-250-250/Galletas-de-Maiz-Mizos-Chocolate-20-g.jpg?v=638776412251800000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galleta-maiz-con-chocolate-mizos-20-gr-1946095"
-  },
-  {
-    "id": "4013",
-    "nombre": "Galletas Gullón Choco Chip Sin Gluten 130 g",
-    "marca": "Gullón",
-    "precio": 2790,
-    "precioOriginal": 2790,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/299983-250-250/Galletas-Gullon-Choco-Chip-Sin-Gluten-130-g.jpg?v=638776371523630000",
-    "categoria": "Galletas Dulces",
-    "slug": "galleta-choco-chip-gullon-130-g"
-  },
-  {
-    "id": "115556",
-    "nombre": "Galletas Tika Mini Ricepop Chocolate Berries 22 g",
-    "marca": "Tika",
-    "precio": 599,
-    "precioOriginal": 599,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/381739-250-250/Galleta-Ricepop-chocolate-berries-22-g.jpg?v=638776828272970000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galleta-tika-ricepop-choco-berr-22-gr-1876551"
-  },
-  {
-    "id": "30978",
-    "nombre": "Galletas de Arroz Kupiec Natural 90 g",
-    "marca": "Kupiec",
-    "precio": 2429,
-    "precioOriginal": 2429,
-    "stock": true,
-    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/355588-250-250/1582267.jpg?v=638776707827470000",
-    "categoria": "Integrales, Arroz y Otros",
-    "slug": "galletas-de-arroz-kupiec-natural-90-g"
+    "imagen": "https://jumbocl.vtexassets.com/arquivos/ids/348016-250-250/Lechuga-escarola-bandeja-2-un.jpg?v=638776479191200000",
+    "categorias": [
+      "Frutas y Verduras",
+      "Verduras",
+      "Verdura"
+    ],
+    "slug": "lechuga-escarola-jumbo-2-unid",
+    "detalle": {
+      "descripcion": "Descubre la frescura y el sabor de nuestra lechuga escarola. Perfecta para ensaladas frescas y wraps saludables.",
+      "ingredientes": [
+        "Lechuga escarola"
+      ],
+      "tablaNutricional": [
+        {
+          "nombre": "Energía (kCal)",
+          "por100g": "14",
+          "porPorcion": "14"
+        },
+        {
+          "nombre": "Proteínas (g)",
+          "por100g": "1",
+          "porPorcion": "1"
+        },
+        {
+          "nombre": "Grasas Totales (g)",
+          "por100g": "0",
+          "porPorcion": "0"
+        },
+        {
+          "nombre": "Carbohidratos (g)",
+          "por100g": "3",
+          "porPorcion": "3"
+        },
+        {
+          "nombre": "Azúcares (g)",
+          "por100g": "2",
+          "porPorcion": "2"
+        },
+        {
+          "nombre": "Sodio (mg)",
+          "por100g": "10",
+          "porPorcion": "10"
+        }
+      ]
+    }
   }
 ]
