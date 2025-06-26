@@ -60,12 +60,46 @@ api.get('/public-key', async (req, res) => {
 
 // Endpoints públicos (requieren API key pública)
 api.get('/productos', requirePublicApiKey, function (req, res) {
+  const offset = typeof req.query.offset === 'string' ? parseInt(req.query.offset, 10) : 0;
+  const limit = typeof req.query.limit === 'string' ? parseInt(req.query.limit, 10) : 20;
+  const { q, categoria } = req.query;
+
+  // Construir filtro de búsqueda
+  let filter: any = {};
+
+  if (q && typeof q === 'string') {
+    const regex = new RegExp(q, 'i');
+    filter.$or = [
+      { nombre: regex },
+      { marca: regex },
+      { 'detalle.descripcion': regex },
+      { categorias: regex }
+    ];
+  }
+
+  if (categoria && typeof categoria === 'string') {
+    const catRegex = new RegExp(categoria, 'i');
+    filter.categorias = catRegex;
+  }
+
   client.connect().then(() => {
     const db = client.db('catalogo');
-    db.collection('productos').find().toArray()
-      .then(productos => res.status(200).json(productos))
-      .catch(() => res.status(500).json({ error: 'Error obteniendo productos' }));
-  }).catch(() => res.status(500).json({ error: 'Error conectando a la base de datos' }));
+    db.collection('productos')
+      .find(filter, { projection: { detalle: 0 } }) // Excluir "detalle"
+      .skip(offset)
+      .limit(limit)
+      .toArray()
+      .then(productos => {
+        res.status(200).json(productos);
+      })
+      .catch((err) => {
+        console.error(err);
+        res.status(500).json({ error: 'Error obteniendo productos' });
+      });
+  }).catch((err) => {
+    console.error(err);
+    res.status(500).json({ error: 'Error conectando a la base de datos' });
+  });
 });
 
 // Endpoint para obtener un producto por id
