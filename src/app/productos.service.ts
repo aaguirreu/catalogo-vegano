@@ -19,10 +19,10 @@ export interface Producto {
 
 @Injectable({ providedIn: 'root' })
 export class ProductosService {
-  // private apiUrl = 'https://catalogo-vegano.onrender.com/api/productos';
-  private apiUrl = 'http://localhost:3001/api/productos';
-  // private publicKeyUrl = 'https://catalogo-vegano.onrender.com/api/public-key';
-  private publicKeyUrl = 'http://localhost:3001/api/public-key';
+  private apiUrl = 'https://catalogo-vegano.onrender.com/api/productos';
+  // private apiUrl = 'http://localhost:3001/api/productos';
+  private publicKeyUrl = 'https://catalogo-vegano.onrender.com/api/public-key';
+  // private publicKeyUrl = 'http://localhost:3001/api/public-key';
   private publicKey$: Observable<string>;
 
   constructor(private http: HttpClient) {
