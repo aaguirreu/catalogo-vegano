@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/2e6283f4-abd5-49c3-8bf4-1ed84bef771d)
+
 # Catálogo de Productos Veganos - JumVo 🥦
 
 Este proyecto fue desarrollado como parte de una prueba técnica para mostrar un catálogo de productos veganos del supermercado Jumbo. La aplicación está compuesta por un frontend desarrollado en Angular y una API construida con Express y MongoDB.
