@@ -1,16 +1,27 @@
-import { VercelRequest, VercelResponse } from '@vercel/node';
 import { MongoClient } from 'mongodb';
 
 const uri = process.env.MONGODB_URI || "";
 const client = new MongoClient(uri);
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+export async function getProductos(req, res) {
   try {
     await client.connect();
     const db = client.db("catalogo");
     if (req.method === "GET") {
-      // Obtener todos los productos
-      const productos = await db.collection("productos").find().toArray();
+      const { q } = req.query;
+      let filter = {};
+      if (q) {
+        const regex = new RegExp(q, 'i');
+        filter = {
+          $or: [
+            { nombre: regex },
+            { descripcion: regex },
+            { marca: regex },
+            { categoria: regex }
+          ]
+        };
+      }
+      const productos = await db.collection("productos").find(filter).toArray();
       res.status(200).json(productos);
     } else {
       res.status(405).json({ error: "Método no permitido" });
