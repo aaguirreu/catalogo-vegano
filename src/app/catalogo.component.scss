@@ -10,6 +10,8 @@
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   display: flex;
   flex-direction: column;
+  height: 100%;
+  min-height: 0;
 }
 .catalogo-container h2 {
   text-align: center;
@@ -21,6 +23,10 @@
   gap: 2rem;
   justify-content: center;
   width: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  height: 100%;
 }
 .fila {
   display: flex;

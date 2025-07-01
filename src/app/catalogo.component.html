@@ -25,7 +25,7 @@
   <div class="catalogo-container">
     <div *ngIf="loading">Cargando productos...</div>
     <div *ngIf="error" class="error">{{ error }}</div>
-    <div class="productos-lista">
+    <div #scrollable class="productos-lista" style="height: 70vh; overflow-y: auto;" (scroll)="onScrollProductos()">
       <div class="producto" *ngFor="let producto of productosFiltrados()">
         <a [routerLink]="['/producto', producto.slug]" style="text-decoration:none;color:inherit;">
           <img *ngIf="producto.imagen" [src]="producto.imagen" alt="{{ producto.nombre }}" />
