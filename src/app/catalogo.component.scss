@@ -10,8 +10,8 @@
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   display: flex;
   flex-direction: column;
-  height: 100%;
-  min-height: 0;
+  height: auto;
+  /* min-height: 0; */
 }
 .catalogo-container h2 {
   text-align: center;
@@ -90,9 +90,8 @@
   display: flex;
   align-items: stretch;
   gap: 2rem;
-  height: 100vh;
-  min-height: 600px;
   max-width: 1200px;
+  max-height: 85vh;
   margin: 0 auto;
 }
 .panel-categorias {
@@ -105,6 +104,7 @@
   box-shadow: 0 1px 6px rgba(0,0,0,0.06);
   display: flex;
   flex-direction: column;
+  /* min-height: 0; */
 }
 .panel-categorias h3 {
   margin-top: 0;
@@ -273,6 +273,7 @@
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    /* min-height: 0; */
   }
   .panel-categorias.abierta {
     transform: translateX(0);
@@ -309,15 +310,15 @@
 }
 @media (min-width: 901px) {
   .catalogo-layout {
-    height: 100vh;
-    min-height: 600px;
+    height: 100%;
+    /* min-height: 600px; */
   }
   .panel-categorias {
-    height: 100%;
+    height: auto;
     overflow-y: auto;
   }
   .catalogo-container {
-    height: 100%;
+    /* min-height: 0; */
     overflow-y: auto;
   }
 }
